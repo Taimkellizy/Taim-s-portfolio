@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@600&family=Encode+Sans:wght@900&family=Handjet&family=Open+Sans&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: transparent; backdrop-filter: blur(10px);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 110px;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: #fe4a49;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Rammetto One', serif;
+    text-decoration: none;
+}
+
+nav a{
+    position: relative;
+    color: #fe4a49;
+    font-size: 1.19em;
+    margin-left: 40px;
+    transition: 0.7s ease;
+}
+
+nav a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #fe4a49;
+    transition: 0.3s;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #fed766;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    transition: 0.08s ease;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+footer:hover{
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
+}
+
+section{
+    padding: 60px 200px;
+    background-color: #f4f4f8;
+}
+
+p{
+    padding: 20px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    font-size: 5rem;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    font-size: 20px;
+    margin: 4 1rem;
+}
+
+.icons a i{
+    color: #e6e6ea;
+}
+
+.icons a{
+    display: inline-block;
+    margin: 0 1rem;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fe4a49;
+    transition: 0.08s ease;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.icons a:hover{
+    background-color: #f4f4f8;
+    border-bottom: 6px solid black;
+    border-left: 6px solid black;
+}
+
+.icons a:hover i{
+    color: #fe4a49;
+}
+
+.copyrights{
+    padding: 0;
+}
+
+.bg-colorful{
+    width: 100%;
+    min-height: 100vh;
+    background: url('New Project (2).png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.special1{
+    font-family: 'Roboto Slab', serif;
+}
+
+.special2{
+    font-family: 'Handjet', cursive;
+}
+
+.special2-footer{
+    font-family: 'Handjet', cursive;
+}
+
+.special2BIG{
+    font-family: 'Handjet', cursive;
+    font-size: 20px;
+}
+
+.additional-text{
+    font-size: 20px;
+}
+
+.paragraph{
+    font-size: 25px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bg-ghostwhite{
+    background: #f4f4f8;
+}
+
+.bg-blue{
+    background: #2ab7ca;
+}
+
+.color-white{
+    color: #f4f4f8;
+}
+
+.color-red{
+    color: #fe4a49;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.extra-padding{
+    padding: 90px;
+}
+
+.tooSmall{
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.border{
+    background-color: black;
+    padding: 3px;
+}
+
+.outlined{
+    transition: 0.08s ease;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    
+}
+
+.outlined:hover{
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
+    
+}
+
+.special-p{
+    font-size: 20px;
+}
+
+.special-p2{
+    font-size: 25px;
+    padding-top: 90px;
+    padding-right: 20px;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.special-h1{
+    text-decoration: underline;
+    padding: 120px;
+    color: #f4f4f8;
+    background: #2ab7ca;
+    font-family: 'Roboto Slab', serif;
+}
+
+.special2-h1{
+    text-decoration: underline;
+    padding: 120px;
+    color: #f4f4f8;
+    background: #fed766;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.contact{
+    background-color: #fe4a49;
+    padding: 3rem 1rem;
+    margin: 20px;
+    margin-left: 400px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 13px;
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    color: #e6e6ea;
+    text-align: left;
+    transition: 0.08s ease;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.contact:hover{
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
+    background-color: #f4f4f8;
+    color: #fe4a49;
+}
+
+.question{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.answers{
+    background-color: #fe4a49;
+    padding: 1rem 0.5rem;
+    margin: 10px;
+    margin-left: 400px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 13px;
+    font-size: 20px;
+    color: #f4f4f8;
+    text-align: center;
+    outline: 1px solid #2C0808;
+    transition: 0.2s;
+}
+
+.answers:hover{
+    background-color: #e6e6ea;
+    color: #fe4a49;
+    outline: 3px solid #2C0808;
+    transition: 0.2s;
+}
+
+.next-btn{
+    margin: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 25px;
+    background-color: #2ab7ca;
+}
+
+.next-btn:hover{
+    background-color: #f4f4f8;
+    color: #2ab7ca;
+    outline: 1px solid #2C0808;
+    transition: 0.2s;
+}
+
+.container{
+    margin-bottom: 90px;
+}
+
+.float-left{
+    float: left;
+    margin-right: 30px;
+    max-width: 450px;
+}
+
+.float-right2{
+    float: right;
+}
+
+.float-right{
+    float: right;
+    margin-right: 30px;
+    max-width: 450px;
+}
+
+ol{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul{
+    font-weight: lighter;
+}
+
+.irresistible-button{
+    width: 300px;
+    height: 300px;
+    background-color: #fe4a49;
+    border-radius: 50%;
+    border-bottom: 10px black solid;
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+    border-left: 10px black solid;
+}
+
+.irresistible-button:hover{
+    border-top: 4px black solid;
+    border-right: 4px black solid;
+    border-left: 15px black solid;
+    border-bottom: 15px black solid;
+}
+
+.irresistible-button-text{
+    font-size: 20px;
+    font-family: "Rammetto One", serif;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 5px 15px;
+    }
+
+    .logo{
+        font-size: 15px;
+    }
+
+    .bg-colorful{
+        background: url('New\ Project\ \(2\)mobile.png') no-repeat;
+    }
+
+    section{
+        padding: 60px 60px;
+    }
+
+    p{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .main{
+        font-size: 30px;
+        min-height: 10vh;
+        margin-top: 125px;
+        margin-bottom: 85px;
+    }
+
+    .bg-colorful{
+        min-height: 10vh;
+    }
+
+    .additional-text{
+        font-size: 15px;
+    }
+
+    .paragraph{
+        font-size: 20px;
+    }
+
+    .special-h1{
+        padding: 50px;
+    }
+
+    .special2-h1{
+        padding: 50px;
+    }
+
+    .special-p{
+        font-size: 20px;
+    }
+
+    .icons{
+        font-size: 15px;
+    }
+
+    .icons a{
+        margin: 0.5rem;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .copyrights-footer{
+        font-size: 10px;
+    }
+
+    .special2-footer{
+        font-size: 10px;
+    }
+
+    .answers{
+        padding: 5vw 5vw;
+        margin: 40px;
+        margin-left: 30px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .question{
+        font-size: 15px;
+    }
+
+    .float-left{
+        float: left;
+        margin-right: 30px;
+        max-width: 280px;
+    }
+    
+    .float-right{
+        float: right;
+        margin-right: 30px;
+        max-width: 280px;
+    }
+
+    .contact{
+        padding: 3vw;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+        text-align: left;
+
+    }
+    
+    .contact:hover{
+        border-bottom: 7px solid black;
+        border-left: 7px solid black;
+    }
+
+    .irresistible-button{
+        width: 150px;
+        height: 150px;
+        border-bottom: 10px black solid;
+        border-top: 2px black solid;
+        border-right: 2px black solid;
+        border-left: 10px black solid;
+    }
+    
+    .irresistible-button:hover{
+        border-top: 4px black solid;
+        border-right: 4px black solid;
+        border-left: 15px black solid;
+        border-bottom: 15px black solid;
+    }
+    
+    .irresistible-button-text{
+        font-size: 10px;
+        font-family: "Rammetto One", serif;
+        font-weight: 900;
+    }
+
+    .float-right2{
+        float: none;
+    }
+}
